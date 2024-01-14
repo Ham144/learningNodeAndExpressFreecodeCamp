@@ -3,10 +3,12 @@ import lodash from 'lodash'
 
 const router = express.Router()
 const arr = [1[2[3[4[5]]]]]
-router.get("/home", (req,res)=> {
-    res.send("hello this is home from router")
-    const newArr = lodash.flattenDeep(arr)
-    console.log(`mnew Array : ${newArr}`)
+function flating() {
+    return lodash.flattenDeep(arr)
+}
+router.get("/route", (req,res)=> {
+    console.log(`hahahaha`)
+    res.send(flating)
 })
 
 export default router
