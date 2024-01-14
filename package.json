@@ -2,10 +2,10 @@
   "name": "learningnodeandexpressfreecodecacmp",
   "version": "1.0.0",
   "description": "",
-  "main": "fileStream.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon fileStream.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
